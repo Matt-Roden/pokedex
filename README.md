@@ -27,7 +27,7 @@ This project was a group project for Turing School of Software & Design during m
 
 Hi, I'm [Hayley](https://github.com/hayleyw7)! 🐰🌻🐱  I enjoy combining my experience with software development, art, the cannabis industry, community organization, & start-ups. During the last decade, I managed teams who launched successful new businesses, including multiple dispensaries and an analytical testing laboratory network. While outside of the office, I used the skills garnered from cannabis industry experience to co-found two organizations: a grassroots political enterprise & a worker's rights advocation association. I recognized a lack of representation and resources in these roles, which motivated me to help my community by getting an education in front-end development. My propensity for empathy and accessibility have led me to place considerable focus on a variety of user experiences and representation.
 
-Info about [Matt](https://github.com/Matt-Roden) 🎸  :  I'm a software developer with a passion for accessibility and designing tools that are delightful to use. I have a strong interest in learning and implementing new technologies and tools. My backround in Mechatronics and Engineering as a Field Service Technician for an industrial manufacturer allowed me to expand on my passion for learning and allowed for implementation on the fly. I also gained the experience to travel globally,  and I enjoy learning about different cultures and perspectives and then finding ways to integrate this knowledge into my own life in order to become a more well rounded person.
+Info about [Matt](https://github.com/Matt-Roden) 🎸  :  I'm a software developer with a passion for accessibility and designing tools that are delightful to use. I have a strong interest in learning and implementing new technologies. My backround in Mechatronics and Engineering as a Field Service Technician for an industrial manufacturer allowed me to expand on my passion for learning and allowed for implementation on the fly. I also gained the experience to travel globally,  and I enjoy learning about different cultures and perspectives and then finding ways to integrate this knowledge into my own life in order to become a more well rounded person.
 
 Outside of Software Development, I have a passion for music and music technology, hiking mountains, finding and cruising skateparks, and hanging out with my loved ones and dog! 🛹 🦮
 
@@ -35,11 +35,11 @@ Outside of Software Development, I have a passion for music and music technology
 
 - Successfully create a progressive web application (PWA)
 - Installable (A2HS ready), use of Service Workers, a Web App Manifest, Use of an API, offline useage
-- Implement web animations (Green Sock)
+- Implement web animations (GSAP Library)
 - Learn more about React components & asynchronous JS - use of Hooks
 - Practice refactoring
 - Create a multi-page UX using Router
-- Successful TDD/Cypress
+- Successful TDD and end to end testing with Cypress
 
 ## Technologies Used
 
@@ -101,8 +101,8 @@ Outside of Software Development, I have a passion for music and music technology
 <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/4.svg" alt="Pikachu" width="100" align="right"/>
 
 - Balancing fun/life with project/work/study time 👩🏻‍💻 💅🏻 💆🏻‍ 🐈 🎸
-- Managing the media queries for responsive design
 - Learning and using two new tecnologies at the same time (GSAP and PWA)
+- Collaborating as a group to learn new technology and then implement it
 
 ## Future Designs/Extensions
 
