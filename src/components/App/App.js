@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
-import Search from "../Search/Search";
-import PokedexGrid from "../PokedexGrid/PokedexGrid";
-import Header from "../Header/Header";
-import Error from "../Error/Error";
-import HowTo from "../HowTo/HowTo";
-import Loader from '../Loader/Loader'
-import "./App.css";
-import PokemonDetails from "../PokemonDetails/PokemonDetails";
 import { Route } from 'react-router-dom';
+import Loader from '../Loader/Loader';
+import Header from "../Header/Header";
+import Search from "../Search/Search";
+import HowTo from "../HowTo/HowTo";
+import PokedexGrid from "../PokedexGrid/PokedexGrid";
+import PokemonDetails from "../PokemonDetails/PokemonDetails";
+import Error from "../Error/Error";
+import { getPokedexData } from '../../apiCalls';
+import "./App.css";
 
 const App = () => {
   const [pokeDex, setPokeDex] = useState([])
@@ -15,12 +16,12 @@ const App = () => {
   const [error, setError] = useState('')
 
   useEffect(() => {
-    setTimeout(() => {getPokeDexData()}, 1450)  // setTimeout is for animations
+    setTimeout(() => {getAllPokeDexData()}, 1450)  // setTimeout is for animations
   }, []);
 
-  const getPokeDexData = async () => {
+  const getAllPokeDexData = async () => {
     try {
-      const res = await fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
+      const res = await getPokedexData()
       const pokeDexData = await res.json()
       setPokeDex(pokeDexData.results)
     } catch (err) {
