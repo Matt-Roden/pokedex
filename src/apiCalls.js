@@ -1,4 +1,6 @@
-export const getPokedexData = () => {
-  return fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
-    .then(res => res.ok ? res.json() : this.displayErrorInfo(res))
+export const getPokedexData = async () => {
+  let url = 'https://pokeapi.co/api/v2/pokemon?limit=151'
+  const res = await fetch(url)
+  return res
+    // .then(res => res.ok ? res.json() : this.displayErrorInfo(res))
 }
