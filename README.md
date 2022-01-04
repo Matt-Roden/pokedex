@@ -109,3 +109,4 @@ Outside of Software Development, I have a passion for music and music technology
 - The user will be able to login/logout with username and password.
 - The user will be able to save their favorite cards within their account.
 - The user will be able to play a game in the app.
+- More robust and smoother transitions between pages and elements
